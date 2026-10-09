@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Contact | HEIS_DANIELANIETIE</title>
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#09090b;color:#f4f4f5;font:16px/1.6 system-ui,sans-serif}main{max-width:36rem;padding:2rem}a{color:#19d3ae}h1{color:#a995ff}</style>
+</head>
+<body>
+<main><h1>Let’s work together.</h1><p>Use the project request form on my portfolio to tell me about your project.</p><a href="/">Return to my portfolio ↗</a></main>
+<!-- Netlify detects this definition at deployment. Keep field names aligned with index.html. -->
+<form name="project-request" method="POST" action="/contact-form" data-netlify="true" netlify-honeypot="company" hidden>
+<input type="hidden" name="form-name" value="project-request">
+<input type="hidden" name="subject" value="New project request from portfolio website">
+<input type="text" name="company">
+<input type="text" name="name">
+<input type="tel" name="phone">
+<input type="email" name="email">
+<input type="text" name="service">
+<textarea name="details"></textarea>
+</form>
+</body>
+</html>
